@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Testu prioritizācijas atskaite</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; color: #222; }
+    h1 { color: #333; }
+    h2 { border-bottom: 2px solid #ccc; padding-bottom: 4px; margin-top: 30px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+    th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+
+<h1>Testu prioritizācijas atskaite</h1>
+<p style="color:#666">Ģenerēts: 24.05.2026 13:51:54</p>
+
+<h2>Kopsavilkums</h2>
+<table>
+  <tr><td><b>Riska līmenis</b></td>
+      <td><span style="color:green; font-weight:bold">LOW</span></td></tr>
+  <tr><td><b>Pārklājuma procents</b></td><td>100.0%</td></tr>
+  <tr><td><b>Atlasītie testi</b></td>
+      <td>17 / 1362 (1.2%)</td></tr>
+  <tr><td><b>Izpildes laiks</b></td><td>2.488 s</td></tr>
+  <tr><td><b>Sekmīgi (Passed)</b></td><td style="color:green; font-weight:bold">17</td></tr>
+  <tr><td><b>Nesekmīgi (Failed)</b></td><td style="color:red; font-weight:bold">0</td></tr>
+  </table>
+
+<h2>Izpildes rezultāti</h2>
+<table>
+  <tr><th>Tests</th><th>Rezultāts</th></tr>
+  <tr><td>tests/client/test_headers.py::test_not_same_origin</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_https_redirect</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_not_https_redirect_if_not_default_ports</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_malformed_redirect</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_same_domain_https_redirect_with_auth_header</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_fallback_to_utf8_encoding</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_async_client.py::test_async_mock_transport[asyncio]</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_not_https_redirect</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_redirect_with_auth_header</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_https_redirect_with_auth_header</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_redirect_with_auth</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_subdomain_redirect</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/client/test_redirects.py::test_redirect_custom_scheme</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_text</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_html</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_content_type_encoding</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+<tr><td>tests/test_decoders.py::test_text_decoder_known_encoding[asyncio]</td><td style="color:green; font-weight:bold">PASSED</td></tr>
+</table>
+
+<h2>Prioritizēto testu tabula</h2>
+<table><tr><th>Tests</th><th>Atbilstības vērtība</th></tr>
+<tr><td>tests/client/test_headers.py::test_not_same_origin</td><td>3</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_https_redirect</td><td>3</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_not_https_redirect_if_not_default_ports</td><td>3</td></tr>
+<tr><td>tests/client/test_redirects.py::test_malformed_redirect</td><td>3</td></tr>
+<tr><td>tests/client/test_redirects.py::test_same_domain_https_redirect_with_auth_header</td><td>3</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_fallback_to_utf8_encoding</td><td>3</td></tr>
+<tr><td>tests/client/test_async_client.py::test_async_mock_transport[asyncio]</td><td>2</td></tr>
+<tr><td>tests/client/test_headers.py::test_is_not_https_redirect</td><td>2</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_redirect_with_auth_header</td><td>2</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_https_redirect_with_auth_header</td><td>2</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_domain_redirect_with_auth</td><td>2</td></tr>
+<tr><td>tests/client/test_redirects.py::test_cross_subdomain_redirect</td><td>2</td></tr>
+<tr><td>tests/client/test_redirects.py::test_redirect_custom_scheme</td><td>2</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_text</td><td>2</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_html</td><td>2</td></tr>
+<tr><td>tests/models/test_responses.py::test_response_content_type_encoding</td><td>2</td></tr>
+<tr><td>tests/test_decoders.py::test_text_decoder_known_encoding[asyncio]</td><td>2</td></tr>
+</table>
+
+</body>
+</html>
